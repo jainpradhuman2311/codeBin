@@ -1,7 +1,9 @@
 # codeBin
 hastebin clone
-# Run this fike via Server.js through node
-#Introduction
+
+# Run Server.js through node
+
+# Introduction
 Overview
 Sharing code is a good thing, and it should be _really_ easy to do it.
 A lot of times, I want to show you something I'm seeing - and that's where we
