@@ -1,0 +1,15 @@
+<div class="btn-wrapper">
+  <a href="/" class="logo">codeBin</a>
+  <div class="buttons">
+    <a href="/new" class="btn">New</a>
+    <% if(locals.canSave) { %>
+    <button class="btn" type="submit">Save</button>
+    <% } %> <% if(locals.id != null && canEdit) { %>
+    <a href="/<%= locals.id %>/dublicate" class="btn">Dublicate</a>
+    <% } %> <% if(locals.canEdit) { %>
+    <a href="/<%= locals.id %>/edit" class="btn">Edit</a>
+    <% } %> <% if(locals.canUpdate) { %>
+    <button class="btn" type="submit">Update</button>
+    <% } %>
+  </div>
+</div>
