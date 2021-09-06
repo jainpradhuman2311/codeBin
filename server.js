@@ -6,7 +6,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 const DB =
-  "mongodb+srv://jainpradhuman2311:QTJJmpNMLMACUO8F@cluster0.v6gfl.mongodb.net/codeBin?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<Password>@cluster0.v6gfl.mongodb.net/codeBin?retryWrites=true&w=majority";
 mongoose
   .connect(DB, {})
   .then(() => {
